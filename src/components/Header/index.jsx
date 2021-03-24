@@ -8,6 +8,7 @@ export default class Header extends Component {
         super(props);
     }
 
+
     handleKeyUp = (event) => {
         //判断按下的是不是回车键 keycode 13 回车
         const { keyCode,target } = event
